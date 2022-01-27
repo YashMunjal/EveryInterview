@@ -1326,16 +1326,10 @@ body {
   -webkit-transition: width 0.2s ease-in-out;
   transition: width 0.2s ease-in-out;
 }
-.work-request--options input[type="checkbox"] {
+.work-request--options input[type="button"] {
   display: none;
 }
-.work-request--options input[type="checkbox"]:checked + label {
-  background-color: #0f33ff;
-  border-color: #0f33ff;
-}
-.work-request--options input[type="checkbox"]:checked + label svg {
-  width: 15px;
-}
+
 .work-request--information {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1618,4 +1612,9 @@ ul .ques-list{
         -ms-flex-align: center;
         align-items: center;
         color: #fff;
+}
+
+.hire label{
+    text-decoration: none !important;
+    color:white;
 }
