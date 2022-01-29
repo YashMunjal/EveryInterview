@@ -229,3 +229,4 @@ $(document).ready(function () {
         $(".slider").animate({ opacity: 1 }, 400);
     });
 });
+    
